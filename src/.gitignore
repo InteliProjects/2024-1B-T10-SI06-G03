@@ -1,0 +1,19 @@
+# Ignorar arquivos e pastas específicas
+node_modules/
+dist/
+.env
+
+#Ambiente virtual e cache
+venv/
+__pycache__/
+
+# Ignorar todos os arquivos CSV
+*.csv
+*.pkl
+*.bin
+*.vec
+*.model
+
+# Ignore os arquivos de vetor de palavras
+glove.6B.50d.txt
+GoogleNews-vectors-negative300.bin
